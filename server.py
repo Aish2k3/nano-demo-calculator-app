@@ -14,6 +14,7 @@ def add():
     second_number = data['second']
     result = first_number + second_number
     response = {'result': result}
+    pass
     return jsonify(response), 200
 
 @app.route("/calculator/subtract", methods=['POST'])
